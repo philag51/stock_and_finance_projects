@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
 from sklearn.preprocessing import MinMaxScaler
-from tensorflow.keras.models import Sequential
+from tensorflow.keras.models import Sequential #In Pythob cmd terminal paste this command: py -m pip install tensorflow
 from tensorflow.keras.layers import LSTM, Dense, Dropout
 
 # -------------------------
@@ -88,3 +88,4 @@ else:
     plt.legend()
     plt.grid(True)
     plt.show()
+
